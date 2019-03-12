@@ -1,0 +1,44 @@
+{
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "xe",
+      "tools": [
+        "xelatex"
+      ]
+    },
+    {
+      "name": "xe->xe",
+      "tools": [
+        "xelatex",
+        "xelatex"
+      ]
+    },
+    {
+      "name": "xe->bib->xe->xe",
+      "tools": [
+        "xelatex",
+        "bibtex",
+        "xelatex",
+        "xelatex"
+      ]
+    }
+  ],
+  "latex-workshop.latex.tools": [
+    {
+      "name": "xelatex",
+      "command": "xelatex",
+      "args": [
+        "%DOC%"
+      ],
+    },
+    {
+      "name": "bibtex",
+      "command": "bibtex",
+      "args": [
+        "%DOCFILE%"
+      ]
+    }
+  ],
+  "latex-workshop.view.pdf.viewer": "tab",
+  "latex-workshop.message.badbox.show": false,
+}
