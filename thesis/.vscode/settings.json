@@ -21,6 +21,17 @@
         "xelatex",
         "xelatex"
       ]
+    },
+    {
+      "name": "all",
+      "tools": [
+        "xelatex",
+        "xelatex",
+        "bibtex",
+        "bibtex",
+        "xelatex",
+        "xelatex"
+      ]
     }
   ],
   "latex-workshop.latex.tools": [
@@ -41,4 +52,7 @@
   ],
   "latex-workshop.view.pdf.viewer": "tab",
   "latex-workshop.message.badbox.show": false,
+  
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
 }

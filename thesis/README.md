@@ -16,13 +16,10 @@ https://github.com/wengan-li/ncku-thesis-template-latex-sample/raw/master/thesis
 
 ## Usage
 
-#### First time
-`F1` or `Ctrl + Shift + p`: `LaTeX Workshop: Build with recipe`: xe->xe
-> in **thesis.tex**
-
 #### Without *Reference*
 `F1` or `Ctrl + Shift + p`: `LaTeX Workshop: Build LaTeX project`
-> using default (first) recipe : xe
+> default (first) recipe: xe
+> or use recipe: xe->xe
 
 #### With *Reference*
 `F1` or `Ctrl + Shift + p`: `LaTeX Workshop: Build with recipe`: xe->bib->xe->xe

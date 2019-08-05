@@ -186,6 +186,12 @@
     AutoFakeBold = true,
     AutoFakeSlant = true,
   ]{#2}%
+  \setCJKmonofont[%
+    Path = \GetFontDirPath,
+    UprightFont = \TmpValueNormalFont,
+    AutoFakeBold = true,
+    AutoFakeSlant = true,
+  ]{#2}%
   %
   \ifthenelse{\equal{\TmpValueItalicFont}{\empty}}{}{%
     \addCJKfontfeatures*{ItalicFont = \TmpValueItalicFont}}%
